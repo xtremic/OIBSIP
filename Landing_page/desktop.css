@@ -66,7 +66,7 @@ nav > ul
 {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+   
 }
 
 .conts
@@ -76,4 +76,78 @@ nav > ul
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
+.conts:nth-child(1){
+    align-items: center;
+    justify-content: normal;
+    flex-direction: column;
+}
+
+#btn-house{
+    background-color: #282D35;
+    width: 40%;
+    height: 3rem;
+    margin-top: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 48%;
+    height: 2rem;
+    cursor: pointer;
+    
+    
+}
+
+#spec{
+    
+    width: 70%;
+    height: 6rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats{
+    width: 80px;
+    height: 80px;
+   border: 6px solid green;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   
+
+    border-radius: 100%;
+}
+
+
+#car{
+     transition: 500ms ease-in-out;
+  
+    
+    
+
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
