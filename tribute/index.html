@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body onload="initiate()">
+    <nav>Elon Musk</nav>
+    <div id="first">
+        <div id="text">
+            Elon Musk (born June 28, 1971, Pretoria, South Africa) South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and formed SpaceX, maker of launch vehicles and spacecraft. He was also one of the first significant investors in, as well as chief executive officer of, the electric car manufacturer Tesla. In addition, Musk acquired Twitter (later X) in 2022.
+            Musk attended Queen’s University in Kingston, Ontario, and in 1992 he transferred to the University of Pennsylvania, Philadelphia, where he received bachelor’s degrees in physics and economics in 1997. He enrolled in graduate school in physics at Stanford University in California, but he left after only two days because he felt that the Internet had much more potential to change society than work in physics. In 1995 he founded Zip2, a company that provided maps and business directories to online newspapers. In 1999 Zip2 was bought by the computer manufacturer Compaq for $307 million, and Musk then founded an online financial services company, X.com, which later became PayPal, which specialized in transferring money online. The online auction eBay bought PayPal in 2002 for $1.5 billion.
+        </div>
+        <div id="image">
+            <img src="./Elon-Musk-2010.webp" alt="Elon-Musk-2010">
+        </div>
+    </div>
+    <div id="second">
+        <h1>Businesses</h1>
+        <div id="container">
+            <div onclick="openCards(event)" class="card_container">
+                <div class="big_card"></div>
+                <div class="big_card"></div>
+                <div class="small_card"></div>
+                <div class="small_card"></div>
+                <div class="big_card"></div>
+                <div class="small_card"></div>
+                <div class="small_card"></div>
+                <div class="big_card"></div>
+            </div>
+            <div onclick="openCards(event)" class="card_container">
+                <div class="big_card"></div>
+                <div class="big_card"></div>
+                <div class="small_card"></div>
+                <div class="small_card"></div>
+                <div class="big_card"></div>
+                <div class="small_card"></div>
+                <div class="small_card"></div>
+                <div class="big_card"></div>
+            </div>
+            <div onclick="openCards(event)" class="card_container">
+                <div class="big_card"></div>
+                <div class="big_card"></div>
+                <div class="small_card"></div>
+                <div class="small_card"></div>
+                <div class="big_card"></div>
+                <div class="small_card"></div>
+                <div class="small_card"></div>
+                <div class="big_card"></div>
+            </div>
+            <div id="swipe_control">
+                <button onclick="getPreviousItem()" id="later">Later</button>
+                <button onclick="getNextItem()" id="now">Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
